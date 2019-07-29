@@ -9,7 +9,7 @@ app.use(express.urlencoded({
     extended: true
     })); 
 
-app.use(express.static('kratos'))
+app.use(express.static('demo-app'))
 app.use(express.json());           
 
 app.get('/*', function(req, res) { 
